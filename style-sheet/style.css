@@ -481,7 +481,7 @@ body {
 
 #contact {
   color: #fff;
-  background-image: url("/img/background-contact1.jpg");
+  background-image: url("./img/background-contact1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5%;
