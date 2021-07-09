@@ -200,6 +200,7 @@ body {
 }
 
 .social-icons i {
+  color: #fff;
   font-size: 3rem;
   padding-right: 3rem;
 }
@@ -310,10 +311,10 @@ body {
   text-align: center;
 }
 
-.carousel-caption a {
+.carousel-caption .visit-web {
   position: relative;
-  bottom: 4rem;
-  font-size: 2rem;
+  bottom: 2rem;
+  font-size: 3rem;
   text-decoration: none;
   color: white;
   -webkit-transition: 0.6s;
@@ -324,21 +325,22 @@ body {
 
 @-webkit-keyframes animate {
   100% {
-    color: #ffa801;
+    color: yellow;
     font-weight: 800;
   }
 }
 
 @keyframes animate {
   100% {
-    color: #ffa801;
+    color: yellow;
     font-weight: 800;
   }
 }
 
-.carousel-caption a:hover {
-  color: #ffa801;
-  font-size: 2rem;
+.carousel-caption .visit-web:hover {
+  color: yellow;
+  font-size: 3.5rem;
+  font-weight: 800;
   -webkit-animation: none;
           animation: none;
 }
@@ -535,6 +537,26 @@ body {
   padding-left: 3rem;
   position: relative;
   right: 3rem;
+  -webkit-animation: slideEffect2 2s ease-in infinite alternate forwards;
+          animation: slideEffect2 2s ease-in infinite alternate forwards;
+}
+
+@-webkit-keyframes slideEffect2 {
+  from {
+    right: 3rem;
+  }
+  to {
+    right: -6rem;
+  }
+}
+
+@keyframes slideEffect2 {
+  from {
+    right: 3rem;
+  }
+  to {
+    right: -6rem;
+  }
 }
 
 .inverse-para a {
@@ -625,6 +647,9 @@ body {
   .banner-img {
     padding-top: 20px;
   }
+  #work .container-fluid {
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -637,6 +662,9 @@ body {
   }
   .dynamic-txt li span::after {
     top: 2px;
+  }
+  #work .container-fluid {
+    max-width: 100%;
   }
 }
 
