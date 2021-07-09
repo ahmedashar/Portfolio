@@ -537,8 +537,8 @@ body {
   padding-left: 3rem;
   position: relative;
   right: 3rem;
-  -webkit-animation: slideEffect2 2s ease-in infinite alternate forwards;
-          animation: slideEffect2 2s ease-in infinite alternate forwards;
+  -webkit-animation: slideEffect2 2s ease-in-out infinite alternate forwards;
+          animation: slideEffect2 2s ease-in-out infinite alternate forwards;
 }
 
 @-webkit-keyframes slideEffect2 {
@@ -546,7 +546,7 @@ body {
     right: 3rem;
   }
   to {
-    right: -6rem;
+    right: -80%;
   }
 }
 
@@ -555,7 +555,7 @@ body {
     right: 3rem;
   }
   to {
-    right: -6rem;
+    right: -80%;
   }
 }
 

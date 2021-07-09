@@ -436,13 +436,13 @@ body{
     padding-left: 3rem;
     position: relative;
     right: 3rem;
-    animation: slideEffect2 2s ease-in infinite alternate forwards;
+    animation: slideEffect2 2s ease-in-out infinite alternate forwards;
     @keyframes slideEffect2 {
         from {
             right: 3rem;
         }
         to {
-            right: -6rem;
+            right: -80%;
         }
     }
 
